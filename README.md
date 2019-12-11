@@ -1,2 +1,2 @@
 # OSCE
-OSCE tools will be placed here
+All tools created by me in preparation for the OSCE exam will be shared in this repo.
