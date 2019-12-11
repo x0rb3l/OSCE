@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-###################
-## Vulnserver fuzzer!         ##
+############################
+## Vulnserver fuzzer!     ##
 ## Author: Robel Campbell ##
-###################
+############################
 
 import os
 import sys
