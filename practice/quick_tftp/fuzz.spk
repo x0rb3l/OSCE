@@ -1,0 +1,6 @@
+s_binary("0002");
+s_string_variable("file.txt");
+s_binary("00");
+s_string("netascii");
+s_binary("00");
+sleep(1);
