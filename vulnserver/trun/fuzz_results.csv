@@ -1,0 +1,14 @@
+2020-01-08T02:28:02.271656,info,,,Web interface can be found at http://localhost:26000
+2020-01-08T02:28:02.319660,open test case,,,Test case 1: Request.Method.1
+2020-01-08T02:28:02.319684,info,,,Type: Group. Default value: 'GET'. Case 1 of 2984 overall.
+2020-01-08T02:28:02.319698,info,,,Opening target connection (192.168.1.250:80)...
+2020-01-08T02:28:02.320188,info,,,Connection opened.
+2020-01-08T02:28:02.320212,open step,,,Callback function
+2020-01-08T02:28:02.320224,info,,,Receiving...
+2020-01-08T02:28:07.516966,recv,0,,''
+2020-01-08T02:28:07.516989,check,,,Receiving banner..
+2020-01-08T02:28:07.517004,fail,,,No banner received
+2020-01-08T02:28:07.517060,open step,,,Failure summary
+2020-01-08T02:28:07.517074,info,,,No banner received
+2020-01-08T02:28:07.517083,open step,,,Restarting target
+2020-01-08T02:28:07.517096,info,,,No reset handler available... sleeping for 5 seconds

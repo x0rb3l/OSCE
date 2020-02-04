@@ -1,0 +1,4 @@
+s_string("HTER");
+s_string(" ");
+s_string_variable("buffer");
+s_string("\r\n");

