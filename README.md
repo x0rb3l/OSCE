@@ -1,2 +1,2 @@
 # OSCE
-All tools used and scripts created by me in preparation for the OSCE exam will be shared in this repo.
+The repo contains all the tools and scripts I used to prepare for the OSCE exam.
